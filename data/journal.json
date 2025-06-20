@@ -1,0 +1,226 @@
+{
+  "teacher" : {
+    "id" : 1,
+    "name" : "Prof. Smith",
+    "contacts" : "smith@university.edu"
+  },
+  "groups" : [ {
+    "id" : 1,
+    "name" : "CS-101",
+    "year" : 2023,
+    "specialty" : "Computer Science",
+    "students" : [ {
+      "id" : 1,
+      "name" : "John Doe",
+      "birthDate" : "2000-01-15",
+      "email" : "john@email.com",
+      "grades" : {
+        "1" : [ 5 ],
+        "2" : [ 4 ]
+      }
+    }, {
+      "id" : 2,
+      "name" : "Jane Smith",
+      "birthDate" : "2000-03-20",
+      "email" : "jane@email.com",
+      "grades" : {
+        "1" : [ 5 ],
+        "3" : [ 5 ]
+      }
+    } ]
+  }, {
+    "id" : 2,
+    "name" : "PH-101",
+    "year" : 2023,
+    "specialty" : "Physics",
+    "students" : [ {
+      "id" : 3,
+      "name" : "Bob Johnson",
+      "birthDate" : "2000-05-10",
+      "email" : "bob@email.com",
+      "grades" : {
+        "2" : [ 4 ]
+      }
+    } ]
+  }, {
+    "id" : 3,
+    "name" : "CS-102",
+    "year" : 2022,
+    "specialty" : "Computer Science",
+    "students" : [ {
+      "id" : 4,
+      "name" : "Alice Brown",
+      "birthDate" : "2001-07-25",
+      "email" : "alice@email.com",
+      "grades" : { }
+    } ]
+  }, {
+    "id" : 4,
+    "name" : "MA-101",
+    "year" : 2023,
+    "specialty" : "Mathematics",
+    "students" : [ {
+      "id" : 5,
+      "name" : "Charlie Wilson",
+      "birthDate" : "2000-09-30",
+      "email" : "charlie@email.com",
+      "grades" : {
+        "4" : [ 4 ]
+      }
+    } ]
+  }, {
+    "id" : 5,
+    "name" : "EN-101",
+    "year" : 2023,
+    "specialty" : "English",
+    "students" : [ ]
+  } ],
+  "subjects" : [ {
+    "id" : 1,
+    "name" : "Mathematics",
+    "description" : "Basic math course",
+    "hours" : 120
+  }, {
+    "id" : 2,
+    "name" : "Physics",
+    "description" : "Classical mechanics",
+    "hours" : 90
+  }, {
+    "id" : 3,
+    "name" : "Computer Science",
+    "description" : "Programming basics",
+    "hours" : 150
+  }, {
+    "id" : 4,
+    "name" : "English",
+    "description" : "Language course",
+    "hours" : 60
+  }, {
+    "id" : 5,
+    "name" : "History",
+    "description" : "World history",
+    "hours" : 75
+  } ],
+  "schedule" : [ {
+    "id" : 1,
+    "groupId" : 1,
+    "subjectId" : 1,
+    "dayOfWeek" : "MONDAY",
+    "startTime" : [ 9, 0 ],
+    "endTime" : [ 10, 30 ],
+    "room" : "101"
+  }, {
+    "id" : 2,
+    "groupId" : 1,
+    "subjectId" : 2,
+    "dayOfWeek" : "MONDAY",
+    "startTime" : [ 10, 45 ],
+    "endTime" : [ 12, 15 ],
+    "room" : "102"
+  }, {
+    "id" : 3,
+    "groupId" : 1,
+    "subjectId" : 3,
+    "dayOfWeek" : "TUESDAY",
+    "startTime" : [ 9, 0 ],
+    "endTime" : [ 10, 30 ],
+    "room" : "103"
+  }, {
+    "id" : 4,
+    "groupId" : 1,
+    "subjectId" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "startTime" : [ 9, 0 ],
+    "endTime" : [ 10, 30 ],
+    "room" : "104"
+  }, {
+    "id" : 5,
+    "groupId" : 1,
+    "subjectId" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "startTime" : [ 9, 0 ],
+    "endTime" : [ 10, 30 ],
+    "room" : "105"
+  }, {
+    "id" : 6,
+    "groupId" : 2,
+    "subjectId" : 1,
+    "dayOfWeek" : "MONDAY",
+    "startTime" : [ 13, 0 ],
+    "endTime" : [ 14, 30 ],
+    "room" : "201"
+  }, {
+    "id" : 7,
+    "groupId" : 2,
+    "subjectId" : 2,
+    "dayOfWeek" : "TUESDAY",
+    "startTime" : [ 13, 0 ],
+    "endTime" : [ 14, 30 ],
+    "room" : "202"
+  }, {
+    "id" : 8,
+    "groupId" : 2,
+    "subjectId" : 3,
+    "dayOfWeek" : "WEDNESDAY",
+    "startTime" : [ 13, 0 ],
+    "endTime" : [ 14, 30 ],
+    "room" : "203"
+  }, {
+    "id" : 9,
+    "groupId" : 2,
+    "subjectId" : 4,
+    "dayOfWeek" : "THURSDAY",
+    "startTime" : [ 13, 0 ],
+    "endTime" : [ 14, 30 ],
+    "room" : "204"
+  }, {
+    "id" : 10,
+    "groupId" : 2,
+    "subjectId" : 5,
+    "dayOfWeek" : "FRIDAY",
+    "startTime" : [ 13, 0 ],
+    "endTime" : [ 14, 30 ],
+    "room" : "205"
+  }, {
+    "id" : 11,
+    "groupId" : 3,
+    "subjectId" : 1,
+    "dayOfWeek" : "MONDAY",
+    "startTime" : [ 15, 0 ],
+    "endTime" : [ 16, 30 ],
+    "room" : "301"
+  }, {
+    "id" : 12,
+    "groupId" : 3,
+    "subjectId" : 2,
+    "dayOfWeek" : "TUESDAY",
+    "startTime" : [ 15, 0 ],
+    "endTime" : [ 16, 30 ],
+    "room" : "302"
+  }, {
+    "id" : 13,
+    "groupId" : 3,
+    "subjectId" : 3,
+    "dayOfWeek" : "WEDNESDAY",
+    "startTime" : [ 15, 0 ],
+    "endTime" : [ 16, 30 ],
+    "room" : "303"
+  }, {
+    "id" : 14,
+    "groupId" : 3,
+    "subjectId" : 4,
+    "dayOfWeek" : "THURSDAY",
+    "startTime" : [ 15, 0 ],
+    "endTime" : [ 16, 30 ],
+    "room" : "304"
+  }, {
+    "id" : 15,
+    "groupId" : 3,
+    "subjectId" : 5,
+    "dayOfWeek" : "FRIDAY",
+    "startTime" : [ 15, 0 ],
+    "endTime" : [ 16, 30 ],
+    "room" : "305"
+  } ],
+  "modified" : true
+}
